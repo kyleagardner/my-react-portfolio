@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
-    <h1>Learn to design and code react apps</h1>
+    <h1>Learn to design and node react apps</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </div>

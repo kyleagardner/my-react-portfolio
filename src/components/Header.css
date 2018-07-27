@@ -1,0 +1,59 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  padding: 3rem 0;
+  z-index: 100;
+}
+
+.HeaderGroup {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-items: center;
+}
+
+.HeaderGroup img {
+  display: block;
+}
+
+.Header a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.Header button {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+  background: rgba(238, 66, 102, 1);
+  outline: 0;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .Header {
+    padding: 1rem 0;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .Header a {
+    font-size: 0.9rem;
+  }
+
+  .Header a:nth-child(3) {
+    display: none;
+  }
+
+  .Header button {
+    font-size: 0.9rem;
+  }
+}

@@ -3,10 +3,16 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>I'm Kyle. I build and manage digital products.</h1>
+        <p>
+          I currently work on the product team at Restoration Media in Irvine,
+          California
+        </p>
+        <Link to="/page-2/">Check out my work</Link>
+      </div>
+    </div>
   </div>
 )
 
