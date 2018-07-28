@@ -5,7 +5,7 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>I'm Kyle. I build and manage digital products.</h1>
+        <h1>👋🏻 I'm Kyle. I build and manage digital products.</h1>
         <p>
           I currently work on the product team at Restoration Media in Irvine,
           California
